@@ -11,13 +11,14 @@
       $first_name = htmlspecialchars($_POST["first_name"]);
       $last_name = htmlspecialchars($_POST["last_name"]);
       $food = htmlspecialchars($_POST["food"]);
+      $time = htmlspecialchars($_POST["time"]);
     ?>
     <div class="container py-5 my-5">
       <pre>
       </pre>
-      <h1>Hello, <?php echo $first_name; ?></h1>
+      <h1>Hello, <?php echo $first_name ?></h1>
       <?php if($food != null): ?>
-        <p class="lead">You want to eat a <?php echo $food; ?> for dinner.</p>
+        <p class="lead">You want to eat a <?php echo $food ?> for <?php echo $time ?>.</p>
       <?php else: ?>
         <p>Enter a food.</p>
       <?php endif; ?>

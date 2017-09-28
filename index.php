@@ -39,6 +39,20 @@
             Salad
           </label>
         </div>
+
+        <p class="lead mb-0">When?</p>
+        <div class="form-check">
+          <label class="form-check-label">
+            <input class="form-check-input" type="radio" name="time" id="lunchs" value="lunch">
+            Lunch
+          </label>
+        </div>
+        <div class="form-check">
+          <label class="form-check-label">
+            <input class="form-check-input" type="radio" name="time" id="dinners" value="dinner">
+            Dinner
+          </label>
+        </div>
         <button type="submit" class="btn btn-primary">Submit</button>
       </form>
     </div>
