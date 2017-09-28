@@ -10,16 +10,16 @@
       // Set variables
       $first_name = htmlspecialchars($_POST["first_name"]);
       $last_name = htmlspecialchars($_POST["last_name"]);
-      $animals = htmlspecialchars($_POST["animals"]);
+      $food = htmlspecialchars($_POST["food"]);
     ?>
     <div class="container py-5 my-5">
       <pre>
       </pre>
-      <h1>Hello, <?php echo $first_name.' '.$last_name; ?></h1>
-      <?php if($animals != null): ?>
-        <p class="lead">You&rsquo;re a <?php echo $animals; ?> person.</p>
+      <h1>Hello, <?php echo $first_name; ?></h1>
+      <?php if($food != null): ?>
+        <p class="lead">You want to eat a <?php echo $food; ?> for dinner.</p>
       <?php else: ?>
-        <p>Enter an animal.</p>
+        <p>Enter a food.</p>
       <?php endif; ?>
     </div>
   </body>

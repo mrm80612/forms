@@ -14,22 +14,29 @@
           <input type="text" class="form-control" id="first-name" aria-describedby="first-name-help" placeholder="First Name" name="first_name">
           <small id="first-name-help" class="form-text text-muted">Enter your first name.</small>
         </div>
-        <div class="form-group">
-          <label for="last-name">Last Name</label>
-          <input type="text" class="form-control" id="last-name" aria-describedby="last-name-help" placeholder="Last Name" name="last_name">
-          <small id="last-name-help" class="form-text text-muted">Enter your last name.</small>
-        </div>
-        <p class="lead mb-0">Would you rather have a cat or a dog?</p>
+        <p class="lead mb-0">What would you like to eat?</p>
         <div class="form-check">
           <label class="form-check-label">
-            <input class="form-check-input" type="radio" name="animals" id="cats" value="cat">
-            Cat
+            <input class="form-check-input" type="radio" name="food" id="pizzas" value="pizza">
+            Pizza
           </label>
         </div>
         <div class="form-check">
           <label class="form-check-label">
-            <input class="form-check-input" type="radio" name="animals" id="dogs" value="dog">
-            Dog
+            <input class="form-check-input" type="radio" name="food" id="tacos" value="taco">
+            Taco
+          </label>
+        </div>
+        <div class="form-check">
+          <label class="form-check-label">
+            <input class="form-check-input" type="radio" name="food" id="hamburgers" value="hamburger">
+            Hamburger
+          </label>
+        </div>
+        <div class="form-check">
+          <label class="form-check-label">
+            <input class="form-check-input" type="radio" name="food" id="salads" value="salad">
+            Salad
           </label>
         </div>
         <button type="submit" class="btn btn-primary">Submit</button>
